@@ -14,7 +14,7 @@
             <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="">
-                    <!--<img src="{{ url('img/logo_utvt.png') }}" alt="" width="45">-->
+                    <img src="{{ url('img/logo_utvt.png') }}" alt="" width="45">
                     TSU-DSM: 43
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"

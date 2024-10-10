@@ -18,23 +18,25 @@
             <h3>Datos de Carrera</h3>
 
             <div class="form-floating mb-3">
+            <label for="floatingClave">Clave</label>
+<br><br>
                 <input type="input" class="from-control" name="clave" value="{{ old('clave') }}" id="floatingclave"
                     placeholder="ejemplo: DMS" aria-describedby="ClaveHelp">
-                <label for="floatingClave">Clave</label>
                 <div id="ClaveHelp" class="form-text">Coloque la clave</div>
             </div>
 
             <div class="form-floating mb-3">
+            <label for="floatingNombre">Nombre</label>
+<br><br>
                 <input type="input" class="from-control" name="nombre" value="{{ old('nombre') }}" id="floatingNombre"
                     placeholder="ejemplo: Desarrollo de Software Multiplataforma" aria-describedby="NombreHelp">
-                <label for="floatingNombre">Nombre</label>
                 <div id="NombreHelp" class="form-text">@if($errors->first('nombre')) <i>El campo Nombre(s) no es correcto!!!</i>@endif</div>
             </div>
 
             <div class="form-floating mb-3">
                 <input type="input" class="form-control" name="detalle" value="{{ old('detalle') }}" id="floatingdetalle" placeholder="ejemplo: Que hacenos en la carrera "
                     aria-describedby="detalleHelp">
-                <label for="floatingdetalle">Detalle</label>
+                <label for="floatingdetalle">Cuatrimestre</label>
                 <div id="detalleHelp" class="form-text">Coloque su cuatrimestre</div>
             </div>
  
