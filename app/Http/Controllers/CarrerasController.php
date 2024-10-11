@@ -72,7 +72,7 @@ class CarrerasController extends Controller
         //----------------------- Grupo: borrar -------------------------
         public function carrera_borrar(Carreras $id){
             $id->delete();
-            return redirect()->route('carrera'); 
+            return redirect()->route('carreras'); 
     }
 
 }

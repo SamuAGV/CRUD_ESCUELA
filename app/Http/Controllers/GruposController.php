@@ -69,7 +69,7 @@ class GruposController extends Controller
         //----------------------- Grupo: borrar -------------------------
         public function grupo_borrar(Grupos $id){
             $id->delete();
-            return redirect()->route('grupo'); 
+            return redirect()->route('grupos'); 
     }
 
 }

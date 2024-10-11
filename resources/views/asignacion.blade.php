@@ -51,7 +51,7 @@
         <br><br>
         <br>
         <h3>Alumno a Grupo</h3>
-        <h5>> Asignacion -> Registro</h5>  
+        <h5>> Asignacion -> Registro</h5>   
         <hr>
         <br>
         <form action="{{ route('asignacion_registrar') }}" method="POST" enctype="multipart/form-data">
